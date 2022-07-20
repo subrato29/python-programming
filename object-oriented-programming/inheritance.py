@@ -8,7 +8,7 @@ class Person:
 
 
 class Employee(Person):
-    # Override contructor of Super class
+    # Override constructor of Super class
     def __init__(self, first_name, last_name, salary):
         super().__init__(first_name, last_name)
         self.salary = salary
