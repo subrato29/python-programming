@@ -30,4 +30,4 @@ suffix = ""
 if attempt > 1:
     suffix = "s"
 
-print("You guess the right number, which is:", guess, " in", attempt, "attempt" + suffix)
+print("You guess the right number, which is:", guess, "in", attempt, "attempt" + suffix)
